@@ -15,6 +15,8 @@ import math
 from cherrypy.lib.static import serve_file
 # 導入 gear 模組
 #import gear
+import man
+import man2
 
 ################# (2) 廣域變數設定區
 # 確定程式檔案所在目錄, 在 Windows 下有最後的反斜線
@@ -129,7 +131,7 @@ class Midterm(object):
     <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
     <!-- 載入 brython.js -->
-    <script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"></script>
+    <script type="text/javascript" src="/static/Brython3.1.3-20150514-095342/brython.js"></script>
     </head>
     <!-- 啟動 brython() -->
     <body onload="brython()">
@@ -188,7 +190,7 @@ class Midterm(object):
     </form>
     <br /><a href="index">index</a><br />
     <!-- 載入 brython.js -->
-    <script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"></script>
+    <script type="text/javascript" src="/static/Brython3.1.3-20150514-095342/brython.js"></script>
     <script>
     window.onload=function(){
     brython();
@@ -238,7 +240,7 @@ class Midterm(object):
     </script>
     <canvas id="plotarea" width="1200" height="1200"></canvas>
     <!-- 載入 brython.js -->
-    <script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"></script>
+    <script type="text/javascript" src="/static/Brython3.1.3-20150514-095342/brython.js"></script>
     <script>
     window.onload=function(){
     brython();
@@ -535,7 +537,7 @@ class Midterm(object):
     <script type="text/javascript" src="/static/weblink/pfcUtils.js"></script>
     <script type="text/javascript" src="/static/weblink/wl_header.js">
     <!-- 載入 brython.js -->
-    <script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"></script>
+    <script type="text/javascript" src="/static/Brython3.1.3-20150514-095342/brython.js"></script>
     document.writeln ("Error loading Pro/Web.Link header!");
     </script>
     <script>
@@ -647,8 +649,9 @@ class Midterm(object):
         else:
             file = open(download_root_dir+"downloads/"+filename, "ab")
         file.write(cherrypy.request.body.read())
+        header= cherrypy.request.body.read(80)
         file.close()
-        return "files uploaded!"
+        return "files uploaded!"+header.decode("UTF-8")
     @cherrypy.expose
     def download_list(self, item_per_page=5, page=1, keyword=None, *args, **kwargs):
         files = os.listdir(download_root_dir+"downloads/")
@@ -749,6 +752,9 @@ application_conf = {'/static':{
     
 root = Midterm()
 root.download = Download()
+root.man = man.MAN()
+root.man2 = man2.MAN()
+
 #root.gear = gear.Gear()
 
 if 'OPENSHIFT_REPO_DIR' in os.environ.keys():

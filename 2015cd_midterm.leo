@@ -15,7 +15,7 @@
 <v t="2014fall.20141212095015.1786"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
 <v t="2015.20150330144929.1714" a="E"><vh>以下為協同產品設計實習期中考試</vh>
-<v t="amd.20150503180635.1"><vh>與 OpenShift 應用程式同步</vh>
+<v t="amd.20150503180635.1" a="E"><vh>與 OpenShift 應用程式同步</vh>
 <v t="amd.20150503182305.1"><vh>錯誤訊息</vh></v>
 <v t="amd.20150503182956.1"><vh>已經完成 Github 倉儲與 OpenShift 同步</vh></v>
 <v t="amd.20150503183108.1"><vh>傳回學號</vh></v>
@@ -32,17 +32,16 @@
 <v t="office.20150504185643.1"><vh>downloadlist_access_list</vh></v>
 <v t="office.20150504185717.1"><vh>sizeof_fmt</vh></v>
 <v t="2014fall.20141212095015.1777" a="E"><vh>class Midterm</vh>
-<v t="2015.20150519104849.1"><vh>newHeadline</vh></v>
 <v t="amd.20150503182609.1"><vh>__init__</vh></v>
 <v t="amd.20150503173602.1"><vh>index</vh></v>
 <v t="amd.20150503183542.1"><vh>spur</vh></v>
 <v t="amd.20150503183546.1"><vh>spuraction</vh></v>
 <v t="amd.20150503185058.1"><vh>drawspur</vh></v>
 <v t="amd.20150503185210.1"><vh>drawspuraction</vh></v>
-<v t="2015.20150519104923.1"><vh>spur1</vh></v>
-<v t="2015.20150519105207.1"><vh>spuraction1</vh></v>
-<v t="2015.20150519104943.1"><vh>drawspur1</vh></v>
-<v t="2015.20150519105552.1"><vh>drawspuraction1</vh></v>
+<v t="2015.20150609101310.1"><vh>spur1</vh></v>
+<v t="2015.20150609101343.1"><vh>spuraction1</vh></v>
+<v t="2015.20150609101319.1"><vh>drawspur1</vh></v>
+<v t="2015.20150609101206.1"><vh>drawspuraction1</vh></v>
 <v t="office.20150504093049.1"><vh>cube</vh></v>
 <v t="office.20150504093053.1"><vh>cubeaction</vh></v>
 <v t="office.20150504183254.1"><vh>fileuploadform</vh></v>
@@ -53,6 +52,8 @@
 <v t="office.20150504190303.2"><vh>index</vh></v>
 </v>
 </v>
+<v t="office.20150518155258.1"><vh>@edit man.py</vh></v>
+<v t="office.20150518155308.1"><vh>@edit man2.py</vh></v>
 <v t="office.20150504100507.1" a="E"><vh>@path static</vh>
 <v t="office.20150504184156.1"><vh>@edit axuploader.js</vh></v>
 <v t="office.20150504100857.1" a="E"><vh>@path weblink</vh>
@@ -60,9 +61,13 @@
 <v t="office.20150504101740.1"><vh>@edit wl_header.js</vh></v>
 </v>
 <v t="office.20150504100745.1" a="E"><vh>@path Brython3.1.1-20150328-091302</vh>
-<v t="office.20150504100543.1"><vh>@edit brython.js</vh></v>
 <v t="amd.20150503185513.1" a="E"><vh>@path Lib/site-packages/</vh>
 <v t="amd.20150503185513.2"><vh>@edit spur.py</vh></v>
+</v>
+</v>
+<v t="amd.20150523213946.1" a="E"><vh>@path Brython3.1.3-20150514-095342</vh>
+<v t="amd.20150523213946.3" a="E"><vh>@path Lib/site-packages/</vh>
+<v t="amd.20150523213946.4"><vh>@edit spur.py</vh></v>
 </v>
 </v>
 </v>
@@ -93,18 +98,29 @@
 <v t="amd.20150503173343.4"><vh>__init__</vh></v>
 <v t="amd.20150503173343.5"><vh>default</vh></v>
 <v t="amd.20150503173343.6"><vh>index</vh></v>
+<v t="amd.20150508154247.1"><vh>5個題目</vh>
+<v t="amd.20150508154531.1" a="E"><vh>@path five_problems</vh>
+<v t="amd.20150508154258.1"><vh>problem1</vh>
+<v t="amd.20150508154320.1"><vh>@clean for_sum.py</vh></v>
+<v t="amd.20150508154518.1"><vh>@clean while_sum.py</vh></v>
+<v t="amd.20150508155026.1"><vh>@clean recursive_sum.py</vh></v>
+</v>
+<v t="amd.20150508161146.1"><vh>problem2</vh></v>
+<v t="amd.20150508161156.1"><vh>problem3</vh></v>
+<v t="amd.20150508161218.1"><vh>problem4</vh></v>
+<v t="amd.20150508161237.1"><vh>problem5</vh></v>
+</v>
+</v>
 <v t="amd.20150503173343.7"><vh>interpolation</vh></v>
 <v t="amd.20150503173343.8"><vh>gear_width</vh></v>
 <v t="amd.20150503173343.9"><vh>cube_weblink</vh></v>
 <v t="amd.20150503173343.10"><vh>gear_weblink</vh></v>
 </v>
 </v>
-<v t="amd.20150503173429.1"><vh>@path static/Brython3.1.1-20150328-091302/Lib/site-packages/</vh>
-<v t="amd.20150503173429.2"><vh>@edit spur.py</vh></v>
-</v>
 <v t="amd.20150503173937.1"><vh>@edit pybean.py</vh></v>
 </v>
 </v>
+<v t="amd.20150512203202.1"><vh>asciitbinary</vh></v>
 </vnodes>
 <tnodes>
 <t tx="2014fall.20141212095015.1774"></t>
@@ -136,6 +152,9 @@ application_conf = {'/static':{
     
 root = Midterm()
 root.download = Download()
+root.man = man.MAN()
+root.man2 = man2.MAN()
+
 #root.gear = gear.Gear()
 
 if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
@@ -155,6 +174,8 @@ import math
 from cherrypy.lib.static import serve_file
 # 導入 gear 模組
 #import gear
+import man
+import man2
 
 ################# (2) 廣域變數設定區
 # 確定程式檔案所在目錄, 在 Windows 下有最後的反斜線
@@ -285,102 +306,7 @@ QLineEdit#editorLabel {
 <t tx="2014fall.20141212095015.1786">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="2015.20150330144929.1714"></t>
-<t tx="2015.20150519104849.1"></t>
-<t tx="2015.20150519104923.1">@cherrypy.expose
-# N 為齒數, M 為模數, P 為壓力角
-def spur1(self, N1=20, N2=10, N3=30, N4=10, N5=20, N6=30, M=5, P=15):
-    outstring = '''
-&lt;!DOCTYPE html&gt; 
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
-&lt;!-- 載入 brython.js --&gt;
-&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;!-- 啟動 brython() --&gt;
-&lt;body onload="brython()"&gt;
-    
-&lt;form method=POST action=spuraction1&gt;
-齒數1:&lt;input type=text name=N1 value='''+str(N1)+'''&gt;&lt;br /&gt;
-齒數2:&lt;input type=text name=N2 value='''+str(N2)+'''&gt;&lt;br /&gt;
-齒數3:&lt;input type=text name=N3 value='''+str(N3)+'''&gt;&lt;br /&gt;
-齒數4:&lt;input type=text name=N4 value='''+str(N4)+'''&gt;&lt;br /&gt;
-齒數5:&lt;input type=text name=N5 value='''+str(N5)+'''&gt;&lt;br /&gt;
-齒數6:&lt;input type=text name=N6 value='''+str(N6)+'''&gt;&lt;br /&gt;
-模數:&lt;input type=text name=M value = '''+str(M)+'''&gt;&lt;br /&gt;
-壓力角:&lt;input type=text name=P value = '''+str(P)+'''&gt;&lt;br /&gt;
-&lt;input type=submit value=send&gt;
-&lt;/form&gt;
-&lt;br /&gt;&lt;a href="index"&gt;index&lt;/a&gt;&lt;br /&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-'''
-
-    return outstring</t>
-<t tx="2015.20150519104943.1">@cherrypy.expose
-# N 為齒數, M 為模數, P 為壓力角
-def drawspur1(self, N1=20, N2=10, N3=30, N4=10, N5=20, N6=30, M=5, P=15):
-    outstring = '''
-&lt;!DOCTYPE html&gt; 
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    
-&lt;form method=POST action=drawspuraction1&gt;
-齒數1:&lt;input type=text name=N1 value='''+str(N1)+'''&gt;&lt;br /&gt;
-齒數2:&lt;input type=text name=N2 value='''+str(N2)+'''&gt;&lt;br /&gt;
-齒數3:&lt;input type=text name=N3 value='''+str(N3)+'''&gt;&lt;br /&gt;
-齒數4:&lt;input type=text name=N4 value='''+str(N4)+'''&gt;&lt;br /&gt;
-齒數5:&lt;input type=text name=N5 value='''+str(N5)+'''&gt;&lt;br /&gt;
-齒數6:&lt;input type=text name=N6 value='''+str(N6)+'''&gt;&lt;br /&gt;
-模數:&lt;input type=text name=M value = '''+str(M)+'''&gt;&lt;br /&gt;
-壓力角:&lt;input type=text name=P value = '''+str(P)+'''&gt;&lt;br /&gt;
-&lt;input type=submit value=畫出正齒輪輪廓&gt;
-&lt;/form&gt;
-&lt;br /&gt;&lt;a href="index"&gt;index&lt;/a&gt;&lt;br /&gt;
-&lt;!-- 載入 brython.js --&gt;
-&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-window.onload=function(){
-brython();
-}
-&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-'''
-
-    return outstring</t>
-<t tx="2015.20150519105207.1">@cherrypy.expose
-# N 為齒數, M 為模數, P 為壓力角
-def spuraction1(self, N1=20, N2=10, N3=30, N4=10, N5=20, N6=30, M=5, P=15):
-    output = '''
-    &lt;!doctype html&gt;&lt;html&gt;
-    &lt;head&gt;
-    &lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
-    &lt;title&gt;2015CD Midterm&lt;/title&gt;
-    &lt;/head&gt; 
-    &lt;body&gt;
-    '''
-    output += "第一齒數為"+str(N1)+"&lt;br /&gt;"
-    output += "第二齒數為"+str(N2)+"&lt;br /&gt;"
-    output += "第三齒數為"+str(N3)+"&lt;br /&gt;"
-    output += "第四齒數為"+str(N4)+"&lt;br /&gt;"
-    output += "第五齒數為"+str(N5)+"&lt;br /&gt;"
-    output += "第六齒數為"+str(N6)+"&lt;br /&gt;"
-    output += "模數為"+str(M)+"&lt;br /&gt;"
-    output += "壓力角為"+str(P)+"&lt;br /&gt;"
-    output +='''&lt;br /&gt;&lt;a href="/spur1"&gt;spur1&lt;/a&gt;(按下後再輸入)&lt;br /&gt;'''
-    output +='''&lt;br /&gt;&lt;a href="index"&gt;index&lt;/a&gt;&lt;br /&gt;
-    &lt;/body&gt;
-    &lt;/html&gt;
-    '''
-    
-    return output
-    
-    </t>
-<t tx="2015.20150519105552.1">@cherrypy.expose
+<t tx="2015.20150609101206.1">@cherrypy.expose
 # N 為齒數, M 為模數, P 為壓力角
 def drawspuraction1(self, N1=20, N2=10, N3=30, N4=10, N5=20, N6=30, M=5, P=15):
     outstring = '''
@@ -539,6 +465,100 @@ ctx.restore()
 '''
 
     return outstring</t>
+<t tx="2015.20150609101310.1">@cherrypy.expose
+# N 為齒數, M 為模數, P 為壓力角
+def spur1(self, N1=20, N2=10, N3=30, N4=10, N5=20, N6=30, M=5, P=15):
+    outstring = '''
+&lt;!DOCTYPE html&gt; 
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
+&lt;!-- 載入 brython.js --&gt;
+&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;!-- 啟動 brython() --&gt;
+&lt;body onload="brython()"&gt;
+    
+&lt;form method=POST action=spuraction1&gt;
+齒數1:&lt;input type=text name=N1 value='''+str(N1)+'''&gt;&lt;br /&gt;
+齒數2:&lt;input type=text name=N2 value='''+str(N2)+'''&gt;&lt;br /&gt;
+齒數3:&lt;input type=text name=N3 value='''+str(N3)+'''&gt;&lt;br /&gt;
+齒數4:&lt;input type=text name=N4 value='''+str(N4)+'''&gt;&lt;br /&gt;
+齒數5:&lt;input type=text name=N5 value='''+str(N5)+'''&gt;&lt;br /&gt;
+齒數6:&lt;input type=text name=N6 value='''+str(N6)+'''&gt;&lt;br /&gt;
+模數:&lt;input type=text name=M value = '''+str(M)+'''&gt;&lt;br /&gt;
+壓力角:&lt;input type=text name=P value = '''+str(P)+'''&gt;&lt;br /&gt;
+&lt;input type=submit value=send&gt;
+&lt;/form&gt;
+&lt;br /&gt;&lt;a href="index"&gt;index&lt;/a&gt;&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+
+    return outstring</t>
+<t tx="2015.20150609101319.1">@cherrypy.expose
+# N 為齒數, M 為模數, P 為壓力角
+def drawspur1(self, N1=20, N2=10, N3=30, N4=10, N5=20, N6=30, M=5, P=15):
+    outstring = '''
+&lt;!DOCTYPE html&gt; 
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    
+&lt;form method=POST action=drawspuraction1&gt;
+齒數1:&lt;input type=text name=N1 value='''+str(N1)+'''&gt;&lt;br /&gt;
+齒數2:&lt;input type=text name=N2 value='''+str(N2)+'''&gt;&lt;br /&gt;
+齒數3:&lt;input type=text name=N3 value='''+str(N3)+'''&gt;&lt;br /&gt;
+齒數4:&lt;input type=text name=N4 value='''+str(N4)+'''&gt;&lt;br /&gt;
+齒數5:&lt;input type=text name=N5 value='''+str(N5)+'''&gt;&lt;br /&gt;
+齒數6:&lt;input type=text name=N6 value='''+str(N6)+'''&gt;&lt;br /&gt;
+模數:&lt;input type=text name=M value = '''+str(M)+'''&gt;&lt;br /&gt;
+壓力角:&lt;input type=text name=P value = '''+str(P)+'''&gt;&lt;br /&gt;
+&lt;input type=submit value=畫出正齒輪輪廓&gt;
+&lt;/form&gt;
+&lt;br /&gt;&lt;a href="index"&gt;index&lt;/a&gt;&lt;br /&gt;
+&lt;!-- 載入 brython.js --&gt;
+&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+window.onload=function(){
+brython();
+}
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+
+    return outstring</t>
+<t tx="2015.20150609101343.1">@cherrypy.expose
+# N 為齒數, M 為模數, P 為壓力角
+def spuraction1(self, N1=20, N2=10, N3=30, N4=10, N5=20, N6=30, M=5, P=15):
+    output = '''
+    &lt;!doctype html&gt;&lt;html&gt;
+    &lt;head&gt;
+    &lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
+    &lt;title&gt;2015CD Midterm&lt;/title&gt;
+    &lt;/head&gt; 
+    &lt;body&gt;
+    '''
+    output += "第一齒數為"+str(N1)+"&lt;br /&gt;"
+    output += "第二齒數為"+str(N2)+"&lt;br /&gt;"
+    output += "第三齒數為"+str(N3)+"&lt;br /&gt;"
+    output += "第四齒數為"+str(N4)+"&lt;br /&gt;"
+    output += "第五齒數為"+str(N5)+"&lt;br /&gt;"
+    output += "第六齒數為"+str(N6)+"&lt;br /&gt;"
+    output += "模數為"+str(M)+"&lt;br /&gt;"
+    output += "壓力角為"+str(P)+"&lt;br /&gt;"
+    output +='''&lt;br /&gt;&lt;a href="/spur1"&gt;spur1&lt;/a&gt;(按下後再輸入)&lt;br /&gt;'''
+    output +='''&lt;br /&gt;&lt;a href="index"&gt;index&lt;/a&gt;&lt;br /&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+    '''
+    
+    return output
+    
+    </t>
 <t tx="amd.20150503172957.1"></t>
 <t tx="amd.20150503173008.1"># coding=utf-8
 # 上面的程式內容編碼必須在程式的第一或者第二行才會有作用
@@ -585,7 +605,7 @@ def do3Dgear(self, N=20, M=5, P=15):
 &lt;head&gt;
 &lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
 &lt;!-- 載入 brython.js --&gt;
-&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/static/Brython3.1.3-20150514-095342/brython.js"&gt;&lt;/script&gt;
 
 &lt;script type="text/javascript" src="/static/weblink/pfcUtils.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="/static/weblink/wl_header.js"&gt;&lt;/script&gt;
@@ -869,7 +889,7 @@ def mygeartest(self, N=20, M=5, P=15):
 &lt;head&gt;
 &lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
 &lt;!-- 載入 brython.js --&gt;
-&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/static/Brython3.1.3-20150514-095342/brython.js"&gt;&lt;/script&gt;
 &lt;script src="/static/Cango2D.js" type="text/javascript"&gt;&lt;/script&gt;
 &lt;script src="/static/gearUtils-04.js" type="text/javascript"&gt;&lt;/script&gt;
 &lt;/head&gt;
@@ -1016,7 +1036,7 @@ def mygeartest2(self, N=20, M=5, P=15):
 &lt;head&gt;
 &lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
 &lt;!-- 載入 brython.js --&gt;
-&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/static/Brython3.1.3-20150514-095342/brython.js"&gt;&lt;/script&gt;
 &lt;script src="/static/Cango2D.js" type="text/javascript"&gt;&lt;/script&gt;
 &lt;script src="/static/gearUtils-04.js" type="text/javascript"&gt;&lt;/script&gt;
 &lt;/head&gt;
@@ -1125,7 +1145,7 @@ def my3Dgeartest(self, N=20, M=5, P=15):
 &lt;head&gt;
 &lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
 &lt;!-- 載入 brython.js --&gt;
-&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/static/Brython3.1.3-20150514-095342/brython.js"&gt;&lt;/script&gt;
 &lt;script src="/static/Cango2D.js" type="text/javascript"&gt;&lt;/script&gt;
 &lt;script src="/static/gearUtils-04.js" type="text/javascript"&gt;&lt;/script&gt;
 &lt;/head&gt;
@@ -1377,7 +1397,7 @@ def index(self, guess=None):
 &lt;head&gt;
 &lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
 &lt;!-- 載入 brython.js --&gt;
-&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/static/Brython3.1.3-20150514-095342/brython.js"&gt;&lt;/script&gt;
 &lt;script src="/static/Cango2D.js" type="text/javascript"&gt;&lt;/script&gt;
 &lt;script src="/static/gearUtils-04.js" type="text/javascript"&gt;&lt;/script&gt;
 &lt;/head&gt;
@@ -1459,7 +1479,7 @@ def twoDgear(self, N=20, M=5, P=15):
 &lt;head&gt;
 &lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
 &lt;!-- 載入 brython.js --&gt;
-&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/static/Brython3.1.3-20150514-095342/brython.js"&gt;&lt;/script&gt;
 &lt;script src="/static/Cango2D.js" type="text/javascript"&gt;&lt;/script&gt;
 &lt;script src="/static/gearUtils-04.js" type="text/javascript"&gt;&lt;/script&gt;
 &lt;/head&gt;
@@ -1487,7 +1507,7 @@ def threeDgear(self, N=20, M=5, P=15):
 &lt;head&gt;
 &lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
 &lt;!-- 載入 brython.js --&gt;
-&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/static/Brython3.1.3-20150514-095342/brython.js"&gt;&lt;/script&gt;
 &lt;script src="/static/Cango2D.js" type="text/javascript"&gt;&lt;/script&gt;
 &lt;script src="/static/gearUtils-04.js" type="text/javascript"&gt;&lt;/script&gt;
 &lt;/head&gt;
@@ -1515,7 +1535,7 @@ def do2Dgear(self, N=20, M=5, P=15):
 &lt;head&gt;
 &lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
 &lt;!-- 載入 brython.js --&gt;
-&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/static/Brython3.1.3-20150514-095342/brython.js"&gt;&lt;/script&gt;
 &lt;script src="/static/Cango2D.js" type="text/javascript"&gt;&lt;/script&gt;
 &lt;script src="/static/gearUtils-04.js" type="text/javascript"&gt;&lt;/script&gt;
 &lt;/head&gt;
@@ -2006,7 +2026,6 @@ if (!newfile.Status) {
 '''
     return outstring
 </t>
-<t tx="amd.20150503173429.1"></t>
 <t tx="amd.20150503173602.1"># 以 @ 開頭的 cherrypy.expose 為 decorator, 用來表示隨後的成員方法, 可以直接讓使用者以 URL 連結執行
 @cherrypy.expose
 # index 方法為 CherryPy 各類別成員方法中的內建(default)方法, 當使用者執行時未指定方法, 系統將會優先執行 index 方法
@@ -2078,7 +2097,7 @@ def spur(self, N=20, M=5, P=15):
 &lt;head&gt;
 &lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
 &lt;!-- 載入 brython.js --&gt;
-&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/static/Brython3.1.3-20150514-095342/brython.js"&gt;&lt;/script&gt;
 &lt;/head&gt;
 &lt;!-- 啟動 brython() --&gt;
 &lt;body onload="brython()"&gt;
@@ -2137,7 +2156,7 @@ def drawspur(self, N=20, M=5, P=15):
 &lt;/form&gt;
 &lt;br /&gt;&lt;a href="index"&gt;index&lt;/a&gt;&lt;br /&gt;
 &lt;!-- 載入 brython.js --&gt;
-&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/static/Brython3.1.3-20150514-095342/brython.js"&gt;&lt;/script&gt;
 &lt;script&gt;
 window.onload=function(){
 brython();
@@ -2187,7 +2206,7 @@ spur.Spur(ctx).Gear(600, 600, rp, N, P, "blue")
 &lt;/script&gt;
 &lt;canvas id="plotarea" width="1200" height="1200"&gt;&lt;/canvas&gt;
 &lt;!-- 載入 brython.js --&gt;
-&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/static/Brython3.1.3-20150514-095342/brython.js"&gt;&lt;/script&gt;
 &lt;script&gt;
 window.onload=function(){
 brython();
@@ -2199,6 +2218,183 @@ brython();
 
     return outstring</t>
 <t tx="amd.20150503185513.1"></t>
+<t tx="amd.20150508154247.1">The 5 problems
+
+(The following problems are ridiculously simple, but you'd be surprise to discover how many people struggle with them. To the point of not getting anything done at all. Seriously.)
+
+Problem 1
+
+Write three functions that compute the sum of the numbers in a given list using a for-loop, a while-loop, and recursion.
+
+Problem 2
+
+Write a function that combines two lists by alternatingly taking elements. For example: given the two lists [a, b, c] and [1, 2, 3], the function should return [a, 1, b, 2, c, 3].
+
+Problem 3
+
+Write a function that computes the list of the first 100 Fibonacci numbers. By definition, the first two numbers in the Fibonacci sequence are 0 and 1, and each subsequent number is the sum of the previous two. As an example, here are the first 10 Fibonnaci numbers: 0, 1, 1, 2, 3, 5, 8, 13, 21, and 34.
+
+Problem 4
+
+Write a function that given a list of non negative integers, arranges them such that they form the largest possible number. For example, given [50, 2, 1, 9], the largest formed number is 95021.
+
+Problem 5
+
+Write a program that outputs all possibilities to put + or - or nothing between the numbers 1, 2, ..., 9 (in this order) such that the result is always 100. For example: 1 + 2 + 34 – 5 + 67 – 8 + 9 = 100.</t>
+<t tx="amd.20150508154258.1">Problem 1
+
+Write three functions that compute the sum of the numbers in a given list using a for-loop, a while-loop, and recursion.</t>
+<t tx="amd.20150508154320.1">@language python
+
+def for_sum(mylist):
+    sum = 0
+    for i in range(len(mylist)):
+        sum += mylist[i]
+    return sum
+
+mylist = [1, 4, 5, 3, 7]
+
+sum = for_sum(mylist)
+g.es("sum is:", sum)</t>
+<t tx="amd.20150508154518.1">@language python
+
+def while_sum(mylist):
+    i = 0
+    sum = 0
+    while i &lt; len(mylist):
+        sum += mylist[i]
+        i += 1
+    return sum
+
+mylist = [1, 4, 5, 3, 7]
+sum = while_sum(mylist)
+g.es("sum is:", sum)</t>
+<t tx="amd.20150508154531.1"></t>
+<t tx="amd.20150508155026.1">@language python
+def recur_sum(mylist):
+    if len(mylist) == 1:
+        return mylist[0]
+    else:
+        g.es(mylist[0],"+ 遞迴加(", mylist[1:], ")")
+        return mylist[0] + recur_sum(mylist[1:])
+
+mylist = [1, 4, 5, 3, 7]
+sum = recur_sum(mylist)
+g.es("sum is:", sum)</t>
+<t tx="amd.20150508161146.1">Problem 2
+
+Write a function that combines two lists by alternatingly taking elements. For example: given the two lists [a, b, c] and [1, 2, 3], the function should return [a, 1, b, 2, c, 3].</t>
+<t tx="amd.20150508161156.1">Problem 3
+
+Write a function that computes the list of the first 100 Fibonacci numbers. By definition, the first two numbers in the Fibonacci sequence are 0 and 1, and each subsequent number is the sum of the previous two. As an example, here are the first 10 Fibonnaci numbers: 0, 1, 1, 2, 3, 5, 8, 13, 21, and 34.</t>
+<t tx="amd.20150508161218.1">Problem 4
+
+Write a function that given a list of non negative integers, arranges them such that they form the largest possible number. For example, given [50, 2, 1, 9], the largest formed number is 95021.
+</t>
+<t tx="amd.20150508161237.1">Problem 5
+
+Write a program that outputs all possibilities to put + or - or nothing between the numbers 1, 2, ..., 9 (in this order) such that the result is always 100. For example: 1 + 2 + 34 – 5 + 67 – 8 + 9 = 100.</t>
+<t tx="amd.20150512203202.1">import struct
+normals = []
+points = []
+triangles = []
+triangle_number = 0
+def load_binary_stl(fp):
+    '''
+    二位元 STL 檔案格式如下:
+    檔案標頭共有 80 個字元(bytes), 內容通常省略, 但是內容不可使用 solid, 以免與文字檔案 STL 混淆
+    UINT8[80] – Header
+    UINT32 – Number of triangles (I:佔 4 bytes 的 unsigned integer)
+      
+    foreach triangle
+    REAL32[3] – Normal vector (f:每一座標分量為一佔 4 bytes 的 float, 共佔 12 bytes)
+    REAL32[3] – Vertex 1
+    REAL32[3] – Vertex 2
+    REAL32[3] – Vertex 3
+    UINT16 – Attribute byte count (H:兩個 bytes 的 unsigned short, 表示 attribute byte count)
+    end
+      
+    '''
+    # 已經在外部開檔
+    #fp=open(filename,'rb')
+    header=fp.read(80)
+    triangle_number = struct.unpack('I',fp.read(4))[0]
+    #print(triangle_number)
+    count=0
+    while True:
+        try:
+            p=fp.read(12)
+            if len(p)==12:
+                n=[struct.unpack('f',p[0:4])[0],struct.unpack('f',p[4:8])[0],struct.unpack('f',p[8:12])[0]]
+                normals.append(n)
+                l = len(points)
+                #print(n)
+            p=fp.read(12)
+            if len(p)==12:
+                p1=[struct.unpack('f',p[0:4])[0],struct.unpack('f',p[4:8])[0],struct.unpack('f',p[8:12])[0]]
+                points.append(p1)
+                #print(p1)
+            p=fp.read(12)
+            if len(p)==12:
+                p2=[struct.unpack('f',p[0:4])[0],struct.unpack('f',p[4:8])[0],struct.unpack('f',p[8:12])[0]]
+                points.append(p2)
+            p=fp.read(12)
+            if len(p)==12:
+                p3=[struct.unpack('f',p[0:4])[0],struct.unpack('f',p[4:8])[0],struct.unpack('f',p[8:12])[0]]
+                points.append(p3)
+                triangles.append((l, l+1, l+2))
+            # 使用 count 來計算三角形平面個數
+            # triangle_number 為 STL 檔案中的三角形個數
+            count += 1
+            #print(count)
+            # 在前面 12*4 個 bytes 的 normal 與三個點資料後, 為
+            # 一個 2 bytes 長的 unsigned short, 其值為零, 為 attribute
+            fp.read(2)
+            # 讀完所有三角平面後, 即跳出 while
+            if count &gt; triangle_number:
+                break
+        except EOFError:
+            break
+    #fp.close()
+def read_length(f):
+    length = struct.unpack("@i", f.read(4))
+    return length[0]
+def read_header(f):
+    f.seek(f.tell()+80)
+def write_as_ascii(outfilename):
+    f = open(outfilename, "w")
+    f.write ("solid "+outfilename+"\n")
+    for n  in range(len(triangles)):
+        f.write ("facet normal {} {} {}\n".format(normals[n][0],normals[n][1],normals[n][2]))
+        f.write ("outer loop\n")
+        f.write ("vertex {} {} {}\n".format(points[triangles[n][0]][0],points[triangles[n][0]][1],points[triangles[n][0]][2]))
+        f.write ("vertex {} {} {}\n".format(points[triangles[n][1]][0],points[triangles[n][1]][1],points[triangles[n][1]][2]))
+        f.write ("vertex {} {} {}\n".format(points[triangles[n][2]][0],points[triangles[n][2]][1],points[triangles[n][2]][2]))
+        f.write ("endloop\n")
+        f.write ("endfacet\n")
+    f.write ("endsolid "+outfilename+"\n")
+    f.close()
+def main():
+    infilename = "spikeball_bin.stl"
+    outfilename = "spikeball_ascii.stl"
+    try:
+        f = open(infilename, "rb")
+        #read_header(f)
+        #l = read_length(f)
+        try:
+            load_binary_stl(f)
+            l = len(normals)
+        except Exception as e:
+            print("Exception",e)
+        print(len(normals), len(points), len(triangles), l)
+        write_as_ascii(outfilename)
+        print("done")
+    except Exception as e:
+        print(e)
+if __name__ == '__main__':
+    main()</t>
+<t tx="amd.20150523213946.1"></t>
+<t tx="amd.20150523213946.3"></t>
 <t tx="office.20150504093049.1">@cherrypy.expose
 # W 為正方體的邊長
 def cube(self, W=10):
@@ -2232,7 +2428,7 @@ def cubeaction(self, W=10):
 &lt;script type="text/javascript" src="/static/weblink/pfcUtils.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="/static/weblink/wl_header.js"&gt;
 &lt;!-- 載入 brython.js --&gt;
-&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/static/Brython3.1.3-20150514-095342/brython.js"&gt;&lt;/script&gt;
 document.writeln ("Error loading Pro/Web.Link header!");
 &lt;/script&gt;
 &lt;script&gt;
@@ -2380,8 +2576,9 @@ def fileaxupload(self, *args, **kwargs):
     else:
         file = open(download_root_dir+"downloads/"+filename, "ab")
     file.write(cherrypy.request.body.read())
+    header= cherrypy.request.body.read(80)
     file.close()
-    return "files uploaded!"
+    return "files uploaded!"+header.decode("UTF-8")
 </t>
 <t tx="office.20150504185417.1">@cherrypy.expose
 def download_list(self, item_per_page=5, page=1, keyword=None, *args, **kwargs):
