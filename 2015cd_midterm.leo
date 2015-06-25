@@ -2523,7 +2523,7 @@ if __name__ == '__main__':
 <t tx="amd.20150523213946.3"></t>
 <t tx="leo.20150624003941.1">@cherrypy.expose
 # N 為齒數, M 為模數, P 為壓力角
-def drawspur3(self, N1=15, N2=24, N3=15, N4=24, M=5, P=15):
+def drawspur3(self, N1=15, N2=24, N3=15, N4=24, N5=15, N6=24, M=5, P=15):
     outstring = '''
 &lt;!DOCTYPE html&gt; 
 &lt;html&gt;
@@ -2538,6 +2538,9 @@ def drawspur3(self, N1=15, N2=24, N3=15, N4=24, M=5, P=15):
 齒數2:&lt;input type=text name=N2 value='''+str(N2)+'''&gt;&lt;br /&gt;
 齒數3:&lt;input type=text name=N3 value='''+str(N3)+'''&gt;&lt;br /&gt;
 齒數4:&lt;input type=text name=N4 value='''+str(N4)+'''&gt;&lt;br /&gt;
+齒數5:&lt;input type=text name=N5 value='''+str(N5)+'''&gt;&lt;br /&gt;
+齒數6:&lt;input type=text name=N6 value='''+str(N6)+'''&gt;&lt;br /&gt;
+
 
 
 &lt;input type=submit value=畫出正齒輪輪廓&gt;
@@ -2558,7 +2561,7 @@ brython();
     return outstring</t>
 <t tx="leo.20150624004123.1">@cherrypy.expose
 # N 為齒數, M 為模數, P 為壓力角
-def drawspuraction3(self, N1=15, N2=24, N3=15, N4=24, M=5, P=15):
+def drawspuraction3(self, N1=15, N2=24, N3=15, N4=24, N5=15, N6=24, M=5, P=15):
     outstring = '''
 &lt;!DOCTYPE html&gt; 
 &lt;html&gt;
@@ -2600,12 +2603,16 @@ n_g1 = '''+str(N1)+'''
 n_g2 = '''+str(N2)+'''
 n_g3 = '''+str(N3)+'''
 n_g4 = '''+str(N4)+'''
+n_g5 = '''+str(N5)+'''
+n_g6 = '''+str(N6)+'''
 
 # 計算兩齒輪的節圓半徑
 rp_g1 = M*n_g1/2
 rp_g2 = M*n_g2/2
 rp_g3 = M*n_g3/2
 rp_g4 = M*n_g4/2
+rp_g5 = M*n_g5/2
+rp_g6 = M*n_g6/2
 
 # 繪圖第1齒輪的圓心座標
 x_g1 = 400
@@ -2621,6 +2628,11 @@ y_g3 = y_g1 + rp_g1 + rp_g2
 x_g4 = x_g1 + rp_g2 + rp_g3
 y_g4 = y_g1 + rp_g1 + rp_g2 + rp_g3 + rp_g4
 
+x_g5 = x_g1 + rp_g2 + rp_g3+ rp_g4 + rp_g5
+y_g5 = y_g1 + rp_g1 + rp_g2 + rp_g3 + rp_g4
+
+x_g6 = x_g1 + rp_g2 + rp_g3+ rp_g4 + rp_g5
+y_g6 = y_g1 + rp_g1 + rp_g2 + rp_g3 + rp_g4 +rp_g5 + rp_g6
 
 
 # 將第1齒輪順時鐘轉 90 度
@@ -2643,7 +2655,7 @@ ctx.translate(x_g2, y_g2)
 ctx.rotate(-pi/n_g2)
 # put it back
 ctx.translate(-x_g2, -y_g2)
-spur.Spur(ctx).Gear(x_g2, y_g2, rp_g2, n_g2, pa, "green")
+spur.Spur(ctx).Gear(x_g2, y_g2, rp_g2, n_g2, pa, "blue")
 ctx.restore()
 
 ctx.save()
@@ -2663,8 +2675,30 @@ ctx.translate(x_g4, y_g4)
 ctx.rotate(-pi-pi/n_g4-(pi/2+pi/n_g3)*n_g3/n_g4+(pi/2+pi/n_g2)*n_g2/n_g4)
 # put it back
 ctx.translate(-x_g4, -y_g4)
-spur.Spur(ctx).Gear(x_g4, y_g4, rp_g4, n_g4, pa, "black")
+spur.Spur(ctx).Gear(x_g4, y_g4, rp_g4, n_g4, pa, "red")
 ctx.restore()
+
+ctx.save()
+# translate to the origin of second gear
+ctx.translate(x_g5, y_g5)
+# rotate to engage
+ctx.rotate(-pi/2-pi/n_g5-(pi/2+pi/n_g3)*n_g3/n_g5+(pi/2+pi/n_g2)*n_g2/n_g5)
+# put it back
+ctx.translate(-x_g5, -y_g5)
+spur.Spur(ctx).Gear(x_g5, y_g5, rp_g5, n_g5, pa, "black")
+ctx.restore()
+
+ctx.save()
+# translate to the origin of second gear
+ctx.translate(x_g6, y_g6)
+# rotate to engage
+ctx.rotate(-pi/-pi/n_g6-(pi/2+pi/n_g5)*n_g5/n_g6+(pi/2+pi/n_g4)*n_g4/n_g6)
+# put it back
+ctx.translate(-x_g6, -y_g6)
+spur.Spur(ctx).Gear(x_g6, y_g6, rp_g6, n_g6, pa, "black")
+ctx.restore()
+
+
 
 &lt;/script&gt;
 &lt;canvas id="plotarea" width="3000" height="3000"&gt;&lt;/canvas&gt;
